@@ -310,8 +310,9 @@ header .image-text .header-text{
     font-family: 'Poppins', sans-serif;
     position: relative;
     border: 0px;
-    
-    padding-top: -1000px;
+   
+    margin-top: -550px;
+    margin-left: 650px;
 }
 
 .btn-primary{
