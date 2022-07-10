@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <link rel="stylesheet" href="../main/estilos.css">
+
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="shortcut icon" href="../icons/logoCircle.png" type="image/x-icon">
+
+    <title>SAGU MANILLAS</title>
+</head>
+<body >
+    <nav class="sidebar close" id="body">
+        <header>
+        <div class="image-text">
+            <span class="image">
+                <img src="../icons/logoCircle.png" alt="logo">
+            </span>
+
+            <div class="text header-text">
+                <span class="name">SAGU MANILLAS</span>
+                <span class="lema">Regalo para recordar</span>
+            </div>
+        </div>
+
+        
+            <div class="top" id="btn_open">
+                <i class='bx bx-chevron-right toggle sidebar_toggle '></i>
+            </div>
+       
+        
+    </header>
+     
+    <div class="menu-bar" id="menu_side">
+        <div class="menu">
+            <ul class="menu-links">
+                <li class="nav-link ">
+                    <a href="../main/index.html" >
+                        <i class='bx bx-home icon' ></i> 
+                        <span class="text nav-text">Inicio</span>
+                    </a>
+                </li>
+                <li class="nav-link">
+                    <a href="../newVenta/newVenta.html">
+                        <i class='bx bx-right-top-arrow-circle icon'></i>
+                        <span class="text nav-text">Ventas</span>
+                    </a>
+                </li>
+                <li class="nav-link">
+                    <a href="#">
+                        <i class='bx bx-right-down-arrow-circle icon' ></i>
+                        <span class="text nav-text">Compras</span>
+                    </a>
+                </li>
+                <li class="nav-link">
+                    <a href="#">
+                        <i class='bx bx-wallet icon'></i>
+                        <span class="text nav-text">Inventarios</span>
+                    </a>
+                </li>
+                <li class="nav-link">
+                    <a href="#">
+                        <i class='bx bx-id-card icon' ></i>
+                        <span class="text nav-text">Contactos</span>
+                    </a>
+                </li>
+                <li class="nav-link">
+                    <a href="#">
+                        <i class='bx bx-bar-chart-alt-2 icon'  ></i> 
+                        <span class="text nav-text">Reporte</span>
+                    </a>
+                </li>
+                <li class="nav-link">
+                    <a href="#">
+                        <i class='bx bx-wrench icon'></i>
+                        <span class="text nav-text">Configuracion</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="bottom-content">
+            <li class="">
+                <a href="#">
+                    <i class='bx bx-user-circle icon'></i>
+                    <span class="text nav-text">Administrador</span>
+                </a>
+            </li>
+        </div>
+
+    </div>
+    </nav>
+
+    <section class="dashboard">
+        <div class="dash-content">
+            <div class="overview">
+                <div class="title">
+                    <span class="text">Notificaciones</span>
+                </div>
+
+                <div class="boxes">
+                    <div class=" box box1">
+                        <i class='bx bx-cart-add'></i>
+                        <span class="text">Hey! Te estas quedando <br>sin materia prima</span>
+                    </div>  
+                </div>
+               
+            </div>
+
+            <div class="activity">
+                <div class="title">
+                    <span class="text">Reportes</span>
+                </div>
+                <div class="activity-data">
+                    <div class="data grafio">
+                     <img src="../icons/grafico3.png" alt="grafico" width="500px">   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.8.0/dist/chart.min.js"></script>
+    <script>
+        const labels = [
+          'January',
+          'February',
+          'March',
+          'April',
+          'May',
+          'June',
+        ];
+      
+        const data = {
+          labels: labels,
+          datasets: [{
+            label: 'My First dataset',
+            backgroundColor: 'rgb(255, 99, 132)',
+            borderColor: 'rgb(255, 99, 132)',
+            data: [0, 10, 5, 2, 20, 30, 45],
+          }]
+        };
+      
+        const config = {
+          type: 'line',
+          data: data,
+          options: {}
+        };
+      </script>
+       
+</body>
+</html>

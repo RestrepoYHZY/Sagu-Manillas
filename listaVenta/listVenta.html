@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link
+    crossorigin="anonymous"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+    rel="stylesheet"
+  >
+
+    <link rel="stylesheet" href="./estilos.css">
+
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="shortcut icon" href="../icons/logoCircle.png" type="image/x-icon">
+
+    <title>SAGU MANILLAS</title>
+</head>
+<body >
+    <nav class="sidebar close" id="body">
+        <header>
+        <div class="image-text">
+            <span class="image">
+                <img src="../icons/logoCircle.png" alt="logo">
+            </span>
+
+            <div class="text header-text">
+                <span class="name">SAGU MANILLAS</span>
+                <span class="lema">Regalo para recordar</span>
+            </div>
+        </div>
+
+        
+            <div class="top" id="btn_open">
+                <i class='bx bx-chevron-right toggle sidebar_toggle '></i>
+            </div>
+       
+        
+    </header>
+     
+    <div class="menu-bar" id="menu_side">
+        <div class="menu">
+            <ul class="menu-links">
+                <li class="nav-link ">
+                    <a href="../main/index.html" >
+                        <i class='bx bx-home icon' ></i> 
+                        <span class="text nav-text">Inicio</span>
+                    </a>
+                </li>
+                <li class="nav-link">
+                    <a href="../newVenta/newVenta.html">
+                        <i class='bx bx-right-top-arrow-circle icon'></i>
+                        <span class="text nav-text">Ventas</span>
+                    </a>
+                </li>
+                <li class="nav-link">
+                    <a href="#">
+                        <i class='bx bx-right-down-arrow-circle icon' ></i>
+                        <span class="text nav-text">Compras</span>
+                    </a>
+                </li>
+                <li class="nav-link">
+                    <a href="#">
+                        <i class='bx bx-wallet icon'></i>
+                        <span class="text nav-text">Inventarios</span>
+                    </a>
+                </li>
+                <li class="nav-link">
+                    <a href="#">
+                        <i class='bx bx-id-card icon' ></i>
+                        <span class="text nav-text">Contactos</span>
+                    </a>
+                </li>
+                <li class="nav-link">
+                    <a href="#">
+                        <i class='bx bx-bar-chart-alt-2 icon'  ></i> 
+                        <span class="text nav-text">Reporte</span>
+                    </a>
+                </li>
+                <li class="nav-link">
+                    <a href="#">
+                        <i class='bx bx-wrench icon'></i>
+                        <span class="text nav-text">Configuracion</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="bottom-content">
+            <li class="">
+                <a href="#">
+                    <i class='bx bx-user-circle icon'></i>
+                    <span class="text nav-text">Administrador</span>
+                </a>
+            </li>
+        </div>
+    </div>
+    </nav>
+
+<!----------------------------------->
+
+<div id="content">
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <h1>Registro de Ventas</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="containerNav">
+        <div class="container">
+            <ul class="nav nav-tabs">
+                <li class= "nav-item">
+                  <a class="nav-link"href="../newVenta/newVenta.html">Nueva Venta</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../listaVenta/listVenta.html">Listado de ventas</a>
+                </li>   
+            </ul>
+        </div>
+    </section>
+
+    <section class="containerList">
+        <div class="container">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-lg-2 stat ">
+                            <h3>Codigo</h3>
+                        </div> 
+                        <div class="col-lg-2 stat ">
+                            <h3>Cliente</h3>
+                        </div> 
+                        <div class="col-lg-2 stat ">
+                            <h3>Producto</h3>
+                        </div> 
+                        <div class="col-lg-2 stat ">
+                            <h3>Fecha</h3>
+                        </div> 
+                        <div class="col-lg-2 stat ">
+                            <h3>Total</h3>
+                        </div> 
+                        <div class="col-lg-2">
+                            <h3>Acciones</h3>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="containerPeople">
+        <div class="container">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-lg-2 ">
+                            <h4>aa1</h4>
+                        </div> 
+                        <div class="col-lg-2  ">
+                            <h4>Ximena Cardona</4>
+                        </div> 
+                        <div class="col-lg-2 ">
+                            <h4>Accesorio</h4>
+                        </div> 
+                        <div class="col-lg-2 ">
+                            <h4>09/07/2022</h4>
+                        </div> 
+                        <div class="col-lg-2 ">
+                            <h4>$10.000</h4>
+                        </div> 
+                        <div class="col-lg-2">
+                            <h4><i class='bx bx-trash icon' ></i></h4>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+    
+       
+</body>
+</html>
