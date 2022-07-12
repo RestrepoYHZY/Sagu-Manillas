@@ -108,7 +108,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-3">
-                    <h1>Registro de Ventas</h1>
+                    <h1>Registro de Compras</h1>
                 </div>
             </div>
         </div>
@@ -118,10 +118,10 @@
         <div class="container">
             <ul class="nav nav-tabs font-weight-bold">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="../newVenta/newVenta.html">Nueva Venta</a>
+                  <a class="nav-link active" aria-current="page" href="../newCompra/newCompra.html">Nueva Compra</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="../listaVenta/listVenta.html">Listado de ventas</a>
+                  <a class="nav-link" href="../listaCompra/listaCompra.html">Listado de Compras</a>
                 </li>   
             </ul>
         </div>
@@ -135,22 +135,22 @@
     <section class="containerCliente ">
         <div class="card" style="width: 38rem;">
             <div class="card-body">
-              <h5 class="card-title">CLIENTE <i class='bx bx-message-square-add icon' title="Nuevo Cliente " ></i></h5>
+              <h5 class="card-title">PROVEEDOR <i class='bx bx-message-square-add icon' title="Nuevo Proveedor" ></i></h5>
               <form>
                 <div class="row mb-3">
                   <label for="inputNombre" class="col-sm-2 col-form-label">Nombre</label>
                   <div class="col-sm-10">
                     <select class="form-select form-select-sm"  aria-label=".form-select-lg example">
-                        <option selecte>Cliente 1</option>
-                        <option value="1">Cliente 2</option>
-                        <option value="2">Cliente 3</option>
-                        <option value="3">Cliente 4</option>
+                        <option selecte>Proveedor 1</option>
+                        <option value="1">Proveedor 2</option>
+                        <option value="2">Proveedor 3</option>
+                        <option value="3">Proveedor 4</option>
                       </select>
                   </div>
                 </div>                                       
 
                 <div class="row mb-3">
-                  <label for="inputtext" class="col-sm-2 col-form-label ">Cédula</label>
+                  <label for="inputtext" class="col-sm-2 col-form-label ">Empresa</label>
                   <div class="col-sm-10">
                     <input type="text" class="form-control" id="inputcc">
                   </div>
@@ -176,14 +176,16 @@
     <section class="containerProducto">
         <div class="card" style="width: 38rem;">
             <div class="card-body">
-              <h5 class="card-title">PRODUCTO</h5>
+              <h5 class="card-title">MATERIAL</h5>
               <form>
                 <div class="row mb-3">
-                  <label for="inputNombre" class="col-sm-2 col-form-label">Producto</label>
+                  <label for="inputNombre" class="col-sm-2 col-form-label">Material</label>
                   <div class="col-sm-10">
                     <select class="form-select form-select-sm"  aria-label=".form-select-lg example">
-                        <option selecte>Accesorio</option>
-                        <option value="1">Personalizado</option>
+                        <option selecte>Hilo</option>
+                        <option value="1">Cadena</option>
+                        <option value="2">Aretes</option>
+                        <option value="3">Dijes</option>
                       </select>
                   </div>
                 </div>
@@ -231,11 +233,11 @@
         
         <div class="card float-left" style="width: 40rem;">
           <div class="card-body">
-            <h5 class="card-title">Datos de la Venta</h5>
+            <h5 class="card-title">Datos de la Compra</h5>
             <table class="table">
               <tbody>
                 <tr>
-                  <td>Numero de la venta</td>
+                  <td>Numero de la Compra</td>
                   <td>aaa1</td>
                 </tr>
       
@@ -245,48 +247,49 @@
                 </tr>
       
                 <tr class="espacio">
-                  <td>Nombre cliente</td>
-                  <td>El nombre del cliente</td>
+                  <td>Nombre Proveedor</td>
+                  <td>El nombre del Proveddor</td>
                 </tr>
       
+                <tr>
+                    <td>Nombre Empresa</td>
+                    <td>El nombre de la empresa</td>
+                  </tr>
+        
                 <tr>
                   <td>Telefono</td>
                   <td>323 .....</td>
                 </tr>
       
-                <tr>
-                  <td>Dirección</td>
-                  <td>carrera...</td>
-                </tr>
-      
+                
                 <tr class="espacio">
                   <td></td>
                   <td></td>
                 </tr>
                 <tr class="espacio">
-                  <td>Producto</td>
-                  <td>Manilla Lunar</td>
+                  <td>Material</td>
+                  <td>Hilo Rojo</td>
                 </tr>
       
       
                 <tr class="espacio">
                   <td>Cantidad</td>
-                  <td>1</td>
+                  <td>2</td>
                 </tr>
       
                 <tr>
                   <td>Precio Unidad</td>
-                  <td>$10.000</td>
+                  <td>$2.000</td>
                 </tr>
       
                 <tr>
                   <td>Monto Total</td>
-                  <td>$10.000</td>
+                  <td>$4.000</td>
                 </tr>
                 
               </tbody>
             </table>
-            <a href="#" class="btn btn-primary">Realizar Venta</a>
+            <a href="#" class="btn btn-primary">Realizar Compra</a>
           </div>
         </div>
       

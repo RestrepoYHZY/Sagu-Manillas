@@ -236,9 +236,6 @@ header .image-text .header-text{
    
 }
 
-
-
-
 .container h1{
     display: flex;
     padding-top: 35px;
@@ -248,8 +245,6 @@ header .image-text .header-text{
     color: var(--greenhard);
     
 }
-
-
 
 .containerNav{
     display: flex;
@@ -267,64 +262,54 @@ header .image-text .header-text{
     font-size: 20px;
 }
 
-/*=======================================*/
-
-.containerCliente{
+.containerList{
     display: flex;
     padding-top: 30px;
-    padding-left: 35px;
     font-family: 'Poppins', sans-serif;
-  
 }
 
-.card-title{
-    color: var(--purplehard);
+.stat{
+  border-right: 1px solid var(--greenlight);  
+}
+
+.h3, h3{
     font-size: 20px;
-    font-family: 'Mochiy Pop P One','Poppins',sans-serif;
-    text-align: center;
-    padding-bottom: 1rem;
+    font-style: blod;
+    color: var(--purplehard);
+    justify-content: center;
 }
 
-.card-title .icon{
-    font-size: 25px;
-    padding-left: 10px;
-    align-items: center;
-}
-
-
-.containerProducto{
-        display: flex;
-        padding-top: 10px;
-        padding-left: 35px;
-        font-family: 'Poppins', sans-serif;
-        position: relative;
+.div.card-body{
+    padding: 0;
+    background: var(--fond-color);
 }
 
 
-/*=======================================*/
+/*==========================*/
 
 
-.containerResumen{
+
+.containerPeople{
     display: flex;
-    padding-left: 20px;
+    padding-top: 15px;
     font-family: 'Poppins', sans-serif;
-    position: relative;
-    border: 0px;
-    margin-top: -550px;
-    margin-left: 650px;
 }
 
-.btn-primary{
-    background: var(--purplehard);
-    border-color: var(--purplehard);
-    color: var(--main-color);
+.containerPeople.div.card-body{
+    padding: 0.5rem 0.5rem !important;
+    background: var(--fond-color);
 }
 
-.btn-primary:hover{
-    background: var(--greenhard);
-    border-color: var(--greenhard);
-    color: var();
-    transition: var(--tran-02);
 
+
+.h4, h4{
+    font-size: 16px;
+    color: gray;
+    justify-content: center;
 }
 
+.h4, h4 .icon{
+    font-size: 25px;
+    color: gray;
+    justify-content: center;
+}
